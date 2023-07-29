@@ -1,5 +1,7 @@
 const {LoginPage}= require('../PageObjects/LoginPage')
 const {DashboardPage}= require('../PageObjects/DashboardPage')
+const {ZipCodePage}= require('../PageObjects/ZipCodePage')
+const {CreateAccountPage}= require('../PageObjects/CreateAccountPage')
 
 class POManager
 {
@@ -7,6 +9,8 @@ class POManager
     {
         this.loginPage= new LoginPage(page)
         this.dashboardPage= new DashboardPage(page)
+        this.zipcodePage= new ZipCodePage(page)
+        this.createAccount= new CreateAccountPage(page)
     }
 
     getLoginPage()
@@ -17,6 +21,16 @@ class POManager
     getDashboardPage()
     {
         return this.dashboardPage
+    }
+
+    getZipCodePage()
+    {
+        return this.zipcodePage
+    }
+
+    getCreateAccountPage()
+    {
+        return this.createAccount
     }
 
 
