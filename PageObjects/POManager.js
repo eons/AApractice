@@ -1,60 +1,22 @@
-<<<<<<< HEAD
 const { BankInformationPage } = require("../PageObjects/BankInformationPage");
 const { BasePage } = require("../PageObjects/BasePage");
 const { CreateAccountPage } = require("../PageObjects/CreateAccountPage");
 const { DashboardPage } = require("../PageObjects/DashboardPage");
-const {
-  EmployerInformationPage,
-} = require("../PageObjects/EmployerInformationPage");
+const { EmployerInformationPage } = require("../PageObjects/EmployerInformationPage");
 const { JobStatusPage } = require("../PageObjects/JobStatusPage");
 const { LoginPage } = require("../PageObjects/LoginPage");
 const { PaymentFrequencyPage } = require("../PageObjects/PaymentFrequencyPage");
 const { PersonalAddressPage } = require("../PageObjects/PersonalAddressPage");
-const {
-  PersonalInformationPage,
-} = require("../PageObjects/PersonalInformationPage");
+const { PersonalInformationPage } = require("../PageObjects/PersonalInformationPage");
 const { PersonalSsnPage } = require("../PageObjects/PersonalSsnPage");
 const { PersonalSummaryPage } = require("../PageObjects/PersonalSummaryPage");
-const { ZipCodePage } = require("../PageObjects/ZipCodePage");
-=======
 const {LoginPage}= require('../PageObjects/LoginPage')
 const {DashboardPage}= require('../PageObjects/DashboardPage')
-const {ZipCodePage}= require('../PageObjects/ZipCodePage')
-const {CreateAccountPage}= require('../PageObjects/CreateAccountPage')
+const { ZipCodePage }= require('../PageObjects/ZipCodePage')
+
 
 class POManager
 {
-    constructor(page)
-    {
-        this.loginPage= new LoginPage(page)
-        this.dashboardPage= new DashboardPage(page)
-        this.zipcodePage= new ZipCodePage(page)
-        this.createAccount= new CreateAccountPage(page)
-    }
-
-    getLoginPage()
-    {
-        return this.loginPage
-    }
-
-    getDashboardPage()
-    {
-        return this.dashboardPage
-    }
-
-    getZipCodePage()
-    {
-        return this.zipcodePage
-    }
-
-    getCreateAccountPage()
-    {
-        return this.createAccount
-    }
-
->>>>>>> main
-
-class POManager {
   constructor(page) {
     this.bankInformationPage = new BankInformationPage(page);
     this.basePage = new BasePage(page);
