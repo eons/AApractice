@@ -9,7 +9,6 @@ class LoginPage
         this.rememberMeCheckbox= page.locator("//label[@for= 'input42']")
         this.loginHelpHyperlink= page.locator("//a[@data-se= 'needhelp']")
         this.applyNowHyperlink= page.locator("//a[@title= 'Apply now']")
-        this.termsPrivacyButton= page.locator("//button[@aria-controls= 'termsModal']")
     }
 
      async goToPage(_url)
@@ -22,6 +21,12 @@ class LoginPage
         await this.emailTextbox.type(_userName)
         await this.passwordTextbox.type(_password)
         await this.loginButton.click()
+    }
+
+    async applyNowFlow()
+    {
+        await this.applyNowHyperlink.click()
+
     }
 }
 module.exports= {LoginPage}
