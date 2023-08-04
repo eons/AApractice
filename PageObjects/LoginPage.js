@@ -16,6 +16,7 @@ class LoginPage
     await this.emailTextbox.type(_userName);
     await this.passwordTextbox.type(_password);
     await this.loginButton.click();
+    a=0
   }
 
     async login(_userName, _password)
