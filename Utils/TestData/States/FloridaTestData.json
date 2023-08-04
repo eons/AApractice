@@ -1,0 +1,14 @@
+{
+    "zipcode":33612,
+    "email":"tbd@yml.com",
+    "password":"Advance1!",
+    "address":"2602 E Fletcher Ave",
+    "routingNumber":"113025723",
+    "accountNumber":"123654789",
+    "phoneNumber":"7601231234",
+    "firstName":"Xname",
+    "lastName":"Yname",
+"employerName":"Ename",
+    "grossAmount":3000.00,
+    "netAmount":2000.00
+}

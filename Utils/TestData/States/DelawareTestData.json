@@ -1,0 +1,14 @@
+{
+    "zipcode":19963,
+    "email":"tbd@yml.com",
+    "password":"Advance1!",
+    "address":"941 N DuPont Blvd",
+    "routingNumber":"113025723",
+    "accountNumber":"123654789",
+    "phoneNumber":"7601231234",
+    "firstName":"Xname",
+    "lastName":"Yname",
+"employerName":"Ename",
+    "grossAmount":3000.00,
+    "netAmount":2000.00
+}
