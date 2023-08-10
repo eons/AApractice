@@ -1,0 +1,14 @@
+{
+    "zipcode":29108,
+    "email":"tbd@yml.com",
+    "password":"Advance1!",
+    "address":"2016 Bear Village Court",
+    "routingNumber":"113025723",
+    "accountNumber":"123654789",
+    "phoneNumber":"7601231234",
+    "firstName":"Xname",
+    "lastName":"Yname",
+"employerName":"Ename",
+    "grossAmount":3000.00,
+    "netAmount":2000.00
+}

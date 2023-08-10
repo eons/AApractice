@@ -1,7 +1,10 @@
-class LoginPage
+const {BasePage}= require('../PageObjects/BasePage')
+
+class LoginPage extends BasePage
 {
     constructor(page)
     {
+        super(page)
         this.page= page
         this.emailTextbox= page.locator("#okta-signin-username")
         this.passwordTextbox= page.locator("#okta-signin-password")
@@ -9,11 +12,6 @@ class LoginPage
         this.rememberMeCheckbox= page.locator("//label[@for= 'input42']")
         this.loginHelpHyperlink= page.locator("//a[@data-se= 'needhelp']")
         this.applyNowHyperlink= page.locator("//a[@title= 'Apply now']")
-    }
-
-     async goToPage(_url)
-    {
-        await this.page.goto(_url)
     }
 
     async login(_userName, _password)

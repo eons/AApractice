@@ -1,0 +1,14 @@
+{
+    "zipcode":38019,
+    "email":"tbd@yml.com",
+    "password":"Advance1!",
+    "address":"1618 Hwy 51 South",
+    "routingNumber":"113025723",
+    "accountNumber":"123654789",
+    "phoneNumber":"7601231234",
+    "firstName":"Xname",
+    "lastName":"Yname",
+"employerName":"Ename",
+    "grossAmount":3000.00,
+    "netAmount":2000.00
+}
