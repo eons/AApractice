@@ -15,7 +15,7 @@ test("Apply now Flow", async ({page})=>
     await loginPage.applyNowFlow()
     await zipcodePage.enteringZipcodeAndClicking(caData.zipcode)
     await registerPage.createAccount(caData.email, caData.password)
-    await personalInformation.fillingFields(caData.firstName, caData.lastName, caData.dob, caData.phoneNumber)
+    await personalInformation.fillingPersonalInfoFields(caData.firstName, caData.lastName, caData.dob, caData.phoneNumber)
 
     await page.pause()
 })

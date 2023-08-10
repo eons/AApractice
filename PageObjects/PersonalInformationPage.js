@@ -10,7 +10,7 @@ class PersonalInformationPage {
     this.nextButton = page.locator("//button[contains(text(), ' Next ')]")
   }
 
-  async fillingFields(_name, _lname, _dob, _mnumber)
+  async fillingPersonalInfoFields(_name, _lname, _dob, _mnumber)
   {
     await this.page.waitForTimeout(10000)
     await this.firstNameTextbox.type(_name, {delay:250})
